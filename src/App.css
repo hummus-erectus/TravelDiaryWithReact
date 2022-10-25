@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  background-color: #E5E5E5;
+  color: #2B283A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  margin: auto;
+  background-color: #FFFFFF;
+  max-width: 550px;
+}
+
+nav{
+  display: flex;
+  height: 55px;
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+
+nav p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  font-size: 14.5px;
+}
+
+.nav--world{
+  font-size: 24px;;
+}
+
+section {
+  padding: 40px;
+  padding-top: 45px;
+  padding-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px ;
+}
+
+.card{
+  display: flex;
+  gap: 19px;
+}
+
+
+.card--image{
+  border-radius: 5px;
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+}
+  
+.card--details{
+  font-size: 10.25px;
+}
+
+.card--pin{
+  font-size: 15px;
+  color: #F55A5A;
+  margin-right: 4px;
+
+}
+
+.card--location{
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+}
+
+.card--mapsUrl{
+  color:#918E9B;
+}
+
+h1{
+  font-size: 25px;
+  margin-top: -10px;
+}
+
+.card--date{
+  font-size: 10.25px;
+  font-weight: 700;
+}
+
+.card--description{
+  font-size: 10.25px;
+}
